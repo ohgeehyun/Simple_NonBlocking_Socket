@@ -17,5 +17,7 @@ non blocking으로 소켓을 설정하게 되어 따라오는 문제가 여러�
 위에서 서술한 문제점을 수정한 버전은 다른 프로젝트에서 개선 할 것이다.
 
 개선 프로젝트 url 
+무작정 IOCP 를 사용하기 보다는 적재적소에 맞게 사용 할 수도 있으니 공부해두자.
+
 1. select 모델 사용 : https://github.com/ohgeehyun/Select_Model_Socket
 
