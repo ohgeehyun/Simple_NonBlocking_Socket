@@ -41,5 +41,5 @@ asynchronous 는 하나의 스레드에서 실행시점및 완료 를 지금 당
 ps2.)
 Reactor Pattern ~뒤늦게  (논블로킹 소켓  상태 확인 후  뒤늦게 recv send호출)
 
-Proactor Pattern ~미리   (Overlapped WSA~) recv send를 호출 이후 일처리
+Proactor Pattern ~미리   (Overlapped WSA) recv send를 호출 이후 일처리
 
