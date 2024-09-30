@@ -27,8 +27,7 @@ non blocking으로 소켓을 설정하게 되어 따라오는 문제가 여러�
 
 비동기식 모델 의 non-blocking
 
-
-tip-
+ps.)   
 non-block은 코드는 막힘없이 실행되지만 실제로는 메인코드는 실행되면서 함수는 당장 완료가 되지 않았을 뿐 실행되고있다. 
 asynchronous의 경우는 "바로는 실행 안해도 된다." 라는 선택지가 주어진 것 이다.
 그렇기에 block과synchronous는 엄연히 다르다.
