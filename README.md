@@ -20,4 +20,4 @@ non blocking으로 소켓을 설정하게 되어 따라오는 문제가 여러�
 무작정 IOCP 를 사용하기 보다는 적재적소에 맞게 사용 할 수도 있으니 공부해두자.
 
 1. select 모델 사용 : https://github.com/ohgeehyun/Select_Model_Socket
-
+2. WSAEvent모델 사용 : https://github.com/ohgeehyun/WSAEventSelect_model_socket
