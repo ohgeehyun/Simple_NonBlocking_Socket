@@ -18,6 +18,21 @@ non blocking으로 소켓을 설정하게 되어 따라오는 문제가 여러�
 
 개선 프로젝트 url 
 무작정 IOCP 를 사용하기 보다는 적재적소에 맞게 사용 할 수도 있으니 공부해두자.
+또한 block,non_block, synchronous ,asynchronous , 멀티스레드 는 전부 다른 개념이다.
+각 모델별로 위의 특성이 다르기 때문에 참고하자
 
+동기식 모델이나 non-blocking
 1. select 모델 사용 : https://github.com/ohgeehyun/Select_Model_Socket
 2. WSAEvent모델 사용 : https://github.com/ohgeehyun/WSAEventSelect_model_socket
+
+비동기식 모델 의 non-blocking
+
+
+tip-
+non-block은 코드는 막힘없이 실행되지만 실제로는 메인코드는 실행되면서 함수는 당장 완료가 되지 않았을 뿐 실행되고있다. 
+asynchronous의 경우는 "바로는 실행 안해도 된다." 라는 선택지가 주어진 것 이다.
+그렇기에 block과synchronous는 엄연히 다르다.
+
+또한 asynchronous또한 멀티스레드와는 엄연히 다르다.
+asynchronous 는 하나의 스레드에서 실행시점및 완료 를 지금 당장이아닌 나중에로 미룬 것이고
+멀티스레드는 하나의 스레드로 다른 하나의 일을 당장 수행하는것이다.
