@@ -26,8 +26,11 @@ non blocking으로 소켓을 설정하게 되어 따라오는 문제가 여러�
 2. WSAEvent모델 사용 : https://github.com/ohgeehyun/WSAEventSelect_model_socket
 
 비동기식 모델 의 non-blocking
-1.https://github.com/ohgeehyun/Overlapped_model-Event-
-https://github.com/ohgeehyun/Overlapped_Model-CallBack-
+1.overlapped(event) : https://github.com/ohgeehyun/Overlapped_model-Event-
+2.overlapped(callback) :https://github.com/ohgeehyun/Overlapped_Model-CallBack-
+
+현시점에서 쓰는 모델
+completion_port(iocp) : https://github.com/ohgeehyun/Completion_Port_Model
 
 ps.)   
 non-block은 코드는 막힘없이 실행되지만 실제로는 메인코드는 실행되면서 함수는 당장 완료가 되지 않았을 뿐 실행되고있다. 
